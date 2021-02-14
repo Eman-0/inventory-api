@@ -26,7 +26,7 @@
 				]
 				,"responses":{
 					"200": {
-						"description":"Hello Mundo" 
+						"description": "Hello Mundo" 
 					}
 				}
 			}
@@ -34,54 +34,60 @@
 
 		,"/properties": {
 			"get": {
-				"parameters": [
-				]
-				,"description": "Returns a list of stored US properties ordered by id"
+				"description": "Returns a list of stored US properties ordered by id"
 				,"tags": [
 					"Get"
 				]
 				,"responses": {
 					"200": {
-						"description": "Success"	
+						"description": "Success"
+						,"schema": {
+							"$ref": "#/definitions/Property"
+						}	
 					}	
 				}
 			},
 
 			"post": {
 				"parameters": [
-				]
-				,"description": "Adds a new property"
+					{
+						"$ref": "#/definitions/Property"
+					}
+				],
+				"description": "Adds a new property"
 				,"tags": [
 					"Post"
 				]
 				,"responses": {
 					"200": {
 						"description": "Success"
-		
 					}
-				
 				}
 			}
 		}
 
 		,"/properties/{id}": {
+			"parameters": [
+				{"name":"id",
+					"in":"path",
+					"description":"id of property to return",
+					"required":true,
+					"type":"integer",
+					"format":"int64"
+				}
+			],
+
 			"get": {
-				"parameters": [
-					{"name":"id",
-						"in":"path",
-						"description":"id of property to return",
-						"required":true,
-						"type":"integer",
-						"format":"int64"
-					}
-				]
-				,"description": "Returns property if id is found"
+				"description": "Returns property if id is found"
 				,"tags": [
 					"Get by ID"
 				]
 				,"responses": {
 					"200": {
 						"description": "Success"
+						,"schema": {
+							"$ref": "#/definitions/Property"
+						}
 					}
 					,"400": {
 						"description": "Bad Request"
@@ -93,16 +99,7 @@
 			},
 
 			"delete": {
-				"parameters": [
-					{"name":"id",
-						"in":"path",
-						"description":"id of property to return",
-						"required":true,
-						"type":"integer",
-						"format":"int64"
-					}
-				]
-				,"description": "deletes property"
+				"description": "deletes property"
 				,"tags": [
 					"Delete by ID"
 				]
@@ -112,17 +109,14 @@
 					}
 				}
 			},
+
 			"put": {
 				"parameters": [
-					{"name":"id",
-						"in":"path",
-						"description":"id of property to return",
-						"required":true,
-						"type":"integer",
-						"format":"int64"
+					{
+						"$ref": "#/definitions/Property"
 					}
-				]
-				,"description": "Updates property with a valid id"
+				],
+				"description": "Updates property with a valid id"
 				,"tags": [
 					"Update"
 				]
@@ -139,9 +133,42 @@
 				}
 			}
 		}
-
 	}
 	,"definitions":{
+		"Property": {
+					"type": "object" ,
+					"properties": {
+						"id": {
+							"type": "integer"
+						},
+						"address": {
+							"type": "string"
+							,"minLength":1
+							,"maxLength":255
+						},
+						"city": {
+							"type": "string"
+							,"minLength":1
+							,"maxLength":50
+						},
+						"state": {
+							"type": "string"
+							,"minLength":2
+							,"maxLength":2
+						},
+						"zip": {
+							"type": "string"
+							,"minLength":5
+							,"maxLength":10
+						}
+					},
+					"required": [
+						"address",
+						"city",
+						"state",
+						"zip"
+					]
+		}
 	}
 	,"responses":{ 
 	},"parameters":{ 
@@ -163,7 +190,6 @@
 		},
 		{ "name":"Update"
 			,"description": "Updates property selected by id"
-
 		}
 	]
 }

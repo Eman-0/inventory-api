@@ -46,3 +46,87 @@
   service: 'devops-2021',
   timestamp: '2021-02-14 00:25:03'
 }
+{
+  message: 'API server is listening on port undefined...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 12:50:21'
+}
+{
+  message: 'API server is listening on port undefined...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 12:52:06'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 12:52:56'
+}
+{
+  message: 'Hello request route /hello from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 12:53:13'
+}
+{
+  message: 'success',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 12:53:13'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 12:53:51'
+}
+{
+  message: 'success',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 12:53:51'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 12:54:34'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 12:54:37'
+}
+{
+  message: 'success',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 12:54:37'
+}
+{
+  message: 'Hello request route /hello from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 12:54:42'
+}
+{
+  message: 'success',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 12:54:42'
+}
+{
+  message: 'Hello request route /hello from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 12:58:30'
+}
+{
+  message: 'success',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 12:58:30'
+}

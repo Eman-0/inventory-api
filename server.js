@@ -27,7 +27,8 @@ app.use('/hello', helloRouter);
 const utilities = require("./misc/utilities");
 const logger = utilities.getLogger();
 
-var server = app.listen(process.env.LISTEN_PORT, function () {
-	console.log('API server is listening on port ' + process.env.LISTEN_PORT + '...');
-    logger.info('API server is listening on port ' + process.env.LISTEN_PORT + '...');
+// process.env.LISTEN_PORT
+var server = app.listen(8080, function () {
+	console.log('API server is listening on port ' + 8080 + '...');
+    logger.info('API server is listening on port ' + 8080 + '...');
 });
