@@ -9,7 +9,7 @@
     "dev": "nodemon ./server.js"
   },
   "keywords": [],
-  "author": "docrob",
+  "author": "docrob, thanks doc",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
