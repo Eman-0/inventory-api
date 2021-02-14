@@ -1,0 +1,6 @@
+{
+  message: 'API server is listening on port undefined...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-13 23:16:25'
+}
