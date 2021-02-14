@@ -1,0 +1,48 @@
+{
+  message: 'API server is listening on port undefined...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 00:11:09'
+}
+{
+  message: 'API server is listening on port undefined...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 00:13:44'
+}
+{
+  message: 'API server is listening on port undefined...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 00:16:34'
+}
+{
+  message: 'API server is listening on port undefined...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 00:18:35'
+}
+{
+  message: 'API server is listening on port undefined...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 00:18:45'
+}
+{
+  message: 'API server is listening on port undefined...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 00:19:16'
+}
+{
+  message: 'API server is listening on port undefined...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 00:19:23'
+}
+{
+  message: 'API server is listening on port undefined...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-02-14 00:25:03'
+}

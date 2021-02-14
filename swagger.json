@@ -4,8 +4,8 @@
 		,"title":"CS 4783","version":"1.0.0" 
 	}
 	,"host":"localhost:8080"
-	, "configUrl":"localhost:8080/swagger.json"
-	,"basePath":""
+	
+	,"basePath":"/"
 	,"produces": [
 		"application/json" 
 	]
@@ -38,12 +38,28 @@
 				]
 				,"description": "Returns a list of stored US properties ordered by id"
 				,"tags": [
-					""
+					"Get"
 				]
 				,"responses": {
 					"200": {
 						"description": "Success"	
 					}	
+				}
+			},
+
+			"post": {
+				"parameters": [
+				]
+				,"description": "Adds a new property"
+				,"tags": [
+					"Post"
+				]
+				,"responses": {
+					"200": {
+						"description": "Success"
+		
+					}
+				
 				}
 			}
 		}
@@ -51,10 +67,17 @@
 		,"/properties/{id}": {
 			"get": {
 				"parameters": [
+					{"name":"id",
+						"in":"path",
+						"description":"id of property to return",
+						"required":true,
+						"type":"integer",
+						"format":"int64"
+					}
 				]
 				,"description": "Returns property if id is found"
 				,"tags": [
-					""
+					"Get by ID"
 				]
 				,"responses": {
 					"200": {
@@ -67,50 +90,41 @@
 						"description": "Not Found"
 					}
 				}
-			}
-		}
+			},
 
-		,"/properties": {
-			"post": {
-				"parameters": [
-				]
-				,"description": "Returns a list of stored US properties ordered by id"
-				,"tags": [
-					""
-				]
-				,"responses": {
-					"200": {
-						"description": "Success"
-		
-					}
-				
-				}
-			}
-		}
-
-		,"/properties{id}": {
 			"delete": {
 				"parameters": [
+					{"name":"id",
+						"in":"path",
+						"description":"id of property to return",
+						"required":true,
+						"type":"integer",
+						"format":"int64"
+					}
 				]
 				,"description": "deletes property"
 				,"tags": [
-					"delete"
+					"Delete by ID"
 				]
 				,"responses": {
 					"200": {
 						"description": "Deleted"
 					}
 				}
-			}
-		}
-
-		,"/properties{id}": {
+			},
 			"put": {
 				"parameters": [
+					{"name":"id",
+						"in":"path",
+						"description":"id of property to return",
+						"required":true,
+						"type":"integer",
+						"format":"int64"
+					}
 				]
-				,"description": "updates property with a valid id"
+				,"description": "Updates property with a valid id"
 				,"tags": [
-					"update"
+					"Update"
 				]
 				,"responses": {
 					"200": {
@@ -126,18 +140,30 @@
 			}
 		}
 
-
 	}
 	,"definitions":{
 	}
 	,"responses":{ 
 	},"parameters":{ 
 	},"tags": [
+		{ "name":"Get"
+			,"description":"Get all properties" 
+		},
+		{ "name":"Get by ID"
+			,"description":"Gets a selected property by id" 
+		},
+		{ "name":"Post"
+			,"description":"Adds a property" 
+		},
 		{ "name":"hello"
 			,"description":"Says hello to the caller" 
 		},
-		{ "name":"delete"
-			,"description":"Deletes property"
+		{ "name":"Delete by ID"
+			,"description":"Deletes property selected by "
+		},
+		{ "name":"Update"
+			,"description": "Updates property selected by id"
+
 		}
 	]
 }
