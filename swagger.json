@@ -26,11 +26,107 @@
 				]
 				,"responses":{
 					"200": {
-						"description":"Hello response to caller" 
+						"description":"Hello Mundo" 
 					}
 				}
 			}
 		}
+
+		,"/properties": {
+			"get": {
+				"parameters": [
+				]
+				,"description": "Returns a list of stored US properties ordered by id"
+				,"tags": [
+					""
+				]
+				,"responses": {
+					"200": {
+						"description": "Success"	
+					}	
+				}
+			}
+		}
+
+		,"/properties/{id}": {
+			"get": {
+				"parameters": [
+				]
+				,"description": "Returns property if id is found"
+				,"tags": [
+					""
+				]
+				,"responses": {
+					"200": {
+						"description": "Success"
+					}
+					,"400": {
+						"description": "Bad Request"
+					}
+					,"404": {
+						"description": "Not Found"
+					}
+				}
+			}
+		}
+
+		,"/properties": {
+			"post": {
+				"parameters": [
+				]
+				,"description": "Returns a list of stored US properties ordered by id"
+				,"tags": [
+					""
+				]
+				,"responses": {
+					"200": {
+						"description": "Success"
+		
+					}
+				
+				}
+			}
+		}
+
+		,"/properties{id}": {
+			"delete": {
+				"parameters": [
+				]
+				,"description": "deletes property"
+				,"tags": [
+					"delete"
+				]
+				,"responses": {
+					"200": {
+						"description": "Deleted"
+					}
+				}
+			}
+		}
+
+		,"/properties{id}": {
+			"put": {
+				"parameters": [
+				]
+				,"description": "updates property with a valid id"
+				,"tags": [
+					"update"
+				]
+				,"responses": {
+					"200": {
+						"description": "updated"
+					}
+					,"400": {
+						"description": "bad request"
+					}
+					,"404": {
+						"description": "property not found"
+					}
+				}
+			}
+		}
+
+
 	}
 	,"definitions":{
 	}
@@ -39,6 +135,9 @@
 	},"tags": [
 		{ "name":"hello"
 			,"description":"Says hello to the caller" 
+		},
+		{ "name":"delete"
+			,"description":"Deletes property"
 		}
 	]
 }
