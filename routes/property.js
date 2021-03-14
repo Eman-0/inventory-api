@@ -1,8 +1,8 @@
-let express = require('express');
-let router = express.Router();
+
+const express = require('express');
+const router = express.Router();
 
 const gateway = require("../gateways/propertydb");
-
 const utilities = require("../misc/utilities");
 const logger = utilities.getLogger();
 
@@ -14,14 +14,44 @@ router.use(function (req, res, next) {
 });
 
 // this is the top-level GET route for the /properties router
-router.get('/',
-  async function(request, response) {
-  		const result = gateway.fetchProperties();
+// router.get('/',
+//   async function(request, response) {
+//   		const result = gateway.fetchProperties();
 
+//         logger.info("success");
+
+//         utilities.sendResponse(response, 200, result);
+//     }
+// );
+
+router.get('/properties', async function(req, res) {
+        const properties = gateway.Property.findAll();
         logger.info("success");
-
-        utilities.sendResponse(response, 200, result);
+        utilities.sendResponse(res, 200, properties);
     }
 );
+
+// router.post('/properties', (req, res) => {
+//     const data = {
+//         address: req.body.address,
+//         city: req.body.city,
+//         state: req.body.state,
+//         zip: req.body.zip
+//     };
+//     console.log(data.address)
+
+//     if (data.address === '' || data.city === '' || data.state === '' || data.zip === ''){
+//         res.status(401).json('Please enter a complete property address')
+//     }
+//     else {
+//         gateway.Property.create({
+//             address: data.address,
+//             city: data.city,
+//             state: data.state,
+//             zip: data.zip
+//         })
+//     }   
+// });
+
 
 module.exports = router;

@@ -10,7 +10,7 @@
 		"application/json" 
 	]
 	,"schemes": [
-		"http"
+		"https"
 	]
 	,"securityDefinitions": {
 	}
@@ -51,7 +51,17 @@
 			"post": {
 				"parameters": [
 					{
-						"$ref": "#/definitions/Property"
+						
+						"in":"body",
+						"schema": {"$ref": "#/definitions/Property"},
+						"required": true,
+						"description": "Property object"
+					},
+					{
+						"in": "header",
+						"name": "Authorization",
+						"required": true,
+						"type": "string"
 					}
 				],
 				"description": "Adds a new property"
@@ -99,6 +109,14 @@
 			},
 
 			"delete": {
+				"parameters": [
+					{
+						"in": "header",
+						"name": "Authorization",
+						"required": true,
+						"type": "string"
+					}
+				],
 				"description": "deletes property"
 				,"tags": [
 					"Delete by ID"
@@ -113,7 +131,16 @@
 			"put": {
 				"parameters": [
 					{
-						"$ref": "#/definitions/Property"
+						"in":"body",
+						"schema": {"$ref": "#/definitions/Property"},
+						"required": true,
+						"description": "Property object"
+					},
+					{
+						"in": "header",
+						"name": "Authorization",
+						"required": true,
+						"type": "string"
 					}
 				],
 				"description": "Updates property with a valid id"
@@ -136,7 +163,6 @@
 	}
 	,"definitions":{
 		"Property": {
-					"type": "object" ,
 					"properties": {
 						"id": {
 							"type": "integer"
