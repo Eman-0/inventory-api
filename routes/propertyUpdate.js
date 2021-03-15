@@ -1,9 +1,10 @@
 const app = require('../server');
 const gateway = require('../gateways/propertydb');
 const utilities = require("../misc/utilities");
+const auth = require('../middleware/auth')
 
 module.exports = (app) => {
-    app.put('/properties/:id', async function (req, res) {
+    app.put('/properties/:id', auth, async function (req, res) {
         const property = await gateway.findAll({
             where: {
                 id: req.body.id

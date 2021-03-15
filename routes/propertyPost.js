@@ -1,9 +1,10 @@
 const app = require('../server');
 const gateway = require('../gateways/propertydb');
 const utilities = require("../misc/utilities");
+const auth = require('../middleware/auth')
 
 module.exports = (app) => {
-    app.post('/properties', async function (req, res) {
+    app.post('/properties', auth, async function (req, res) {
         if (req.body.address === undefined || req.body.city === undefined || req.body.state === undefined || req.body.zip === undefined){
             utilities.sendResponse(res, 400, 'Please enter a complete property address')
         }
