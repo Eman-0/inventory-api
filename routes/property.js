@@ -12,7 +12,7 @@ router.use(function (req, res, next) {
     logger.info("Properties request route " + req.originalUrl + " from " + ip);
     next();
 });
-
+// Test Comment 
 // this is the top-level GET route for the /properties router
 // router.get('/',
 //   async function(request, response) {
