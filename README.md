@@ -7,7 +7,7 @@ LISTEN_PORT={8080}
 
 #### Building
 <p>
-npm i
+npm init
 </p>
 
 #### Running
