@@ -7,7 +7,7 @@ require('dotenv').config();
 
 // express makes web services for node easy
 const express = require('express');
-
+const https = require('https');
 // init the express
 const app = express();
 app.use(express.json());
@@ -31,11 +31,12 @@ require('./routes/propertyFetch')(app);
 // setup the logger
 const utilities = require("./misc/utilities");
 const logger = utilities.getLogger();
+const fs = require('fs')
 
-// process.env.LISTEN_PORT
-var server = app.listen(8080, function () {
-	console.log('API server is listening on port ' + 8080 + '...');
-    logger.info('API server is listening on port ' + 8080 + '...');
-});
+https.createServer({
+    key: fs.readFileSync('./ssl-dir/key.pem'),
+    cert: fs.readFileSync('./ssl-dir/cert.pem')
+}, app).listen(process.env.LISTEN_PORT) 
+
 
 module.exports = app;
