@@ -6,7 +6,7 @@ if grep -f ./test/curl/hello_expected.txt actual.txt; then
     #pass
     echo "Pass"
 else
-    exit 1
+    echo "Test Fail"
 fi
 
 
@@ -15,7 +15,7 @@ curl --silent -X GET -H 'Content-Type: application/json' -d '{"id": 7}' https://
 if grep -f ./test/curl/get_by_id.txt actual.txt; then
     echo "pass"
 else
-    exit 1
+    echo "Test Fail"
 fi 
 
 
@@ -25,7 +25,7 @@ if grep -f ./test/curl/get_by_id_not_found.txt actual.txt; then
     #pass
     #echo "Pass"
 else
-    exit 1
+    echo "Test Fail"
 fi
 
 #Get All
@@ -34,7 +34,7 @@ if grep -f ./test/curl/get_expected.txt actual.txt; then
     #pass
     #echo "Pass"
 else
-    exit 1
+    echo "Test Fail"
 fi
 
 #Delete no Auth
@@ -43,7 +43,7 @@ if grep -f ./test/curl/delete_by_id_no_auth.txt actual.txt; then
     #pass
     #echo "Pass"
 else
-    exit 1
+    echo "Test Fail"
 fi
 
 #Good Delete
@@ -55,7 +55,7 @@ if grep -f ./test/curl/post_expected.txt actual.txt; then
     #pass
     #echo "Pass"
 else
-    exit 1
+    echo "Test Fail"
 fi
 
 #Post no Auth
@@ -64,7 +64,7 @@ if grep -f ./test/curl/post_no_auth.txt actual.txt; then
     #pass
     #echo "Pass"
 else
-    exit 1
+    echo "Test Fail"
 fi
 
 #Put no auth
@@ -73,7 +73,7 @@ if grep -f ./test/curl/put_no_auth.txt actual.txt; then
     #pass
     #echo "Pass"
 else
-    exit 1
+    echo "Test Fail"
 fi
 
 #Good Put
@@ -82,5 +82,5 @@ if grep -f ./test/curl/put_expected.txt actual.txt; then
     #pass
     #echo "Pass"
 else
-    exit 1
+    echo "Test Fail"
 fi
