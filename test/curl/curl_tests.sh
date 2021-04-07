@@ -12,7 +12,7 @@ fi
 
 #Get by ID
 curl --silent -X GET -H 'Content-Type: application/json' -d '{"id": 7}' https://10.100.201.3:12030/properties/id --insecure > actual.txt
-if grep -f ./test/curl/get_by_id.txt actual.txt; then
+if cmp -s ./test/curl/get_by_id.txt actual.txt; then
     echo "pass"
 else
     echo "Test Fail by id"
@@ -29,7 +29,7 @@ fi
 
 #Get All
 curl --silent -X GET https://10.100.201.3:12030/properties --insecure > actual.txt
-if grep -f ./test/curl/get_expected.txt actual.txt; then
+if cmp -s ./test/curl/get_expected.txt actual.txt; then
     
     echo "Pass"
 else
