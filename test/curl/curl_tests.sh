@@ -37,7 +37,7 @@ else
 fi
 
 #Delete no Auth
-curl --silent -X DELETE -d '{"id": 8}' https://10.100.201.3:12030/properties/id --insecure > actual.txt
+curl --silent -X DELETE -H "Content-Type: application/json" -d '{"id": 8}' https://10.100.201.3:12030/properties/id --insecure > actual.txt
 if grep -f ./test/curl/delete_by_id_no_auth.txt actual.txt; then
     
     echo "Pass"
@@ -46,7 +46,7 @@ else
 fi
 
 #Good Delete
-curl --silent -X DELETE -H "Authorization: cs4783ftw!" -d '{"id": 1}' https://10.100.201.3:12030/properties/id --insecure > actual.txt
+curl --silent -X DELETE -H "Content-Type: application/json" -H 'Authorization: cs4783ftw!' -d '{"id": 1}' https://10.100.201.3:12030/properties/id --insecure > actual.txt
 if grep -f ./test/curl/delete_by_id_not_found.txt actual.txt; then
     
     echo "Pass"
