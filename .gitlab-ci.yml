@@ -22,8 +22,8 @@ deliver-job:
   stage: deploy
   script:
     - echo "Deploying to class server..."
-#    - echo "$PRIVATE_KEY" > ./my_private_key
-#    - chmod 400 ./my_private_key
-#    - ssh -i ./my_private_key mio755@10.100.201.3 "cd ~/cs4783-assignment1; git pull; pm2 reload all"
-#    - rm ./my_private_key
+    - echo "$PRIVATE_KEY" > ./my_private_key
+    - chmod 400 ./my_private_key
+    - ssh -i ./my_private_key mio755@10.100.201.3 "cd ~/cs4783-assignment1; git pull; pm2 reload all"
+    - rm ./my_private_key
 ...
