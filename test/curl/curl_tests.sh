@@ -15,7 +15,7 @@ curl --silent -X GET -H 'Content-Type: application/json' -d '{"id": 7}' https://
 if grep -f ./test/curl/get_by_id.txt actual.txt; then
     echo "pass"
 else
-    echo "Test Fail"
+    echo "Test Fail by id"
 fi 
 
 
