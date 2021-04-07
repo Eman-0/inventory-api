@@ -16,7 +16,7 @@ curl-test-job:
   script:
     - echo "Running CURL tests..."
     - chmod +x ./test/curl/*.sh
-    - ./src/test/curl/curltest.sh
+    - ./src/test/curl/curl_tests.sh
 
 deliver-job:
   stage: deploy
