@@ -7,7 +7,7 @@ build-job:
 unit-test-job:
   stage: test
   script:
-    - mocha test
+    - npm test
 
 curl-test-job:
   stage: test
