@@ -2,7 +2,7 @@
 <p>
 server.js expects a .env that contains:
 <br />
-LISTEN_PORT={}
+LISTEN_PORT={12030}
 </p>
 
 #### Building
