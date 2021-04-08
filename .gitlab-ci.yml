@@ -9,7 +9,7 @@ unit-test-job:
   stage: test
   script:
     - echo "Running unit tests..."
-#    - mocha test
+    - mocha test
 
 curl-test-job:
   stage: test
