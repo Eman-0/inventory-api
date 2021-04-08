@@ -14,4 +14,4 @@ npm install
 <p>
 npm run dev
 </p>
-[](https://ibb.co/PrwDW5T)
+https://ibb.co/PrwDW5T
