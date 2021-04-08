@@ -1,4 +1,4 @@
-let chai = require('chai');
+var chai = require('chai');
 let property = require('../routes/Propertydelete');
 let should = chai.should();
 let server = require('../server');
