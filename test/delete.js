@@ -1,15 +1,15 @@
-import { should as _should, use, request } from 'chai';
-import property from '../routes/Propertydelete';
-let should = _should();
-import server from '../server';
-import chaiHttp from 'chai-http';
+const chai = require('chai');
+let property = require('../routes/Propertydelete');
+let should = chai.should();
+let server = require('../server');
+let chaiHttp = require('chai-http');
 
-use(chaiHttp);
+chai.use(chaiHttp);
 //Our parent block
 describe('delete.js', () => {
     describe('Delete Non-Existing Property', () => {
         it('it should attempt to delete a specified property given an id that does not exist and fail to do so and should state that in a message with a status code of 404', (done) => {
-            request(server)
+            chai.request(server)
                 .delete('/properties/:id')
                 .set('Authorization', "cs4783ftw!")
                 .set('Content-Type', 'application/json')
@@ -25,7 +25,7 @@ describe('delete.js', () => {
     describe('delete.js', () => {
         describe('Non-Authorized Deletion Of A Property', () => {
             it('it should delete a specified address property but not be authorized to do so and return a message stating so with a status code of 401', (done) => {
-                request(server)
+                chai.request(server)
                     .delete('/properties/:id')
                     .set('Authorization', "cs4783")
                     .set('Content-Type', 'application/json')
