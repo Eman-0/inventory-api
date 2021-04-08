@@ -2,8 +2,6 @@
 build-job:
   stage: build
   script:
-    - echo "Building project..."
-    - npm --v
     - npm install
 
 unit-test-job:
