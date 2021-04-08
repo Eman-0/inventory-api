@@ -3,7 +3,7 @@ build-job:
   stage: build
   script:
     - echo "Building project..."
-#    - npm install
+    - npm install
 
 unit-test-job:
   stage: test
