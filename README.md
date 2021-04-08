@@ -14,6 +14,10 @@ npm install
 <p>
 npm run dev
 </p>
+
+<p>
+Unit Testing Issues
+</p>
 We could get the unit testing to work locally but we're unable to run our unit tests in the esal4 enviorment due to it saying that we were missing a chai module.
 Our tests Working Locally: https://ibb.co/PrwDW5T
 Resolving the issue by installing chai in our scripts prior to deployment: https://ibb.co/K2GYgpr
