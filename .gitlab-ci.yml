@@ -3,8 +3,8 @@ build-job:
   stage: build
   script:
     - echo "Building project..."
+    - npm --v
     - npm install
-    - npm install --save chai
 
 unit-test-job:
   stage: test
