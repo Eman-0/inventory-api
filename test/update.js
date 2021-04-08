@@ -13,7 +13,7 @@ describe('update.js', () => {
                 .put('/properties/:id')
                 .set('Authorization', "cs4783ftw!")
                 .set('Content-Type', 'application/json')
-                .send({"id": 3, "address": "1225 Boardwalk", "city":"San Angles", "state":"CA", "zip":"9877"})
+                .send({"id": 7, "address": "1225 Boardwalk", "city":"San Angles", "state":"CA", "zip":"9877"})
                 .end((err, res) => {
                     res.should.have.status(200);
                     res.body.should.be.a('object');
