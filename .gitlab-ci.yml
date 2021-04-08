@@ -2,7 +2,7 @@
 build-job:
   stage: build
   script:
-    - npm install -g chai
+    - npm install --g chai
     - npm install
 
 unit-test-job:
