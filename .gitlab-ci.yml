@@ -8,7 +8,6 @@ build-job:
 unit-test-job:
   stage: test
   script:
-    - echo "Running unit tests..."
     - mocha test
 
 curl-test-job:
