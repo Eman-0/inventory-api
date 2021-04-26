@@ -7,9 +7,11 @@ require('dotenv').config();
 
 // express makes web services for node easy
 const express = require('express');
+const cors = require('cors');
 const https = require('https');
 // init the express
 const app = express();
+app.use(cors())
 app.use(express.json());
 
 // hook up the routers

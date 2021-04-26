@@ -1,0 +1,1332 @@
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:07:15'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:08:25'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:08:33'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:09:22'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:09:44'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:10:09'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:11:11'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:12:37'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:14:47'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:15:07'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:15:58'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:16:17'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:16:42'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:16:45'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:16:50'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:16:51'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:16:52'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:16:52'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:16:53'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:16:54'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:17:55'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:21:52'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:21:56'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:21:57'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:27:05'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:28:08'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:28:45'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:28:48'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:29:00'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:29:18'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:29:19'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:29:30'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:29:35'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:29:40'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:31:12'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:34:48'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:34:54'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:35:17'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:35:21'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:35:26'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:37:01'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:47:20'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:47:27'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:47:41'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:47:56'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:47:56'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:48:31'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:48:35'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:52:00'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:54:23'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:54:27'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:54:28'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:55:18'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:55:23'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:55:24'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:55:25'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:55:26'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:55:26'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 00:58:57'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:00:15'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:01:40'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:01:51'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:03:14'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:03:18'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:09:20'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:10:15'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:10:17'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:10:31'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:11:14'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:11:24'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:11:26'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:11:33'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:11:34'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:11:34'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:11:35'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:11:38'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:11:54'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:11:57'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:12:00'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:13:13'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:13:17'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:14:20'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:14:27'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:17:11'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:17:29'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:20:40'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:24:24'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:24:52'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:25:01'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:25:38'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:25:55'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:25:59'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:26:19'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:26:25'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:29:33'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:29:43'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:31:28'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:31:32'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:33:38'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:33:47'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:35:10'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:35:15'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:47:16'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:47:29'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 01:51:24'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 20:24:25'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 20:25:52'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 20:26:02'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 20:26:11'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 20:50:47'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 20:53:37'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 20:54:52'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 20:55:39'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 20:55:56'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 20:55:58'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 20:57:13'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 20:57:33'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 20:57:55'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 20:59:07'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 20:59:11'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 20:59:32'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 20:59:34'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:01:00'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:01:39'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:01:41'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:03:18'
+}
+{
+  message: 'Properties request route /properties from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:03:28'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:05:31'
+}
+{
+  message: 'Properties request route /properties/%7Bid%7D?id=1 from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:05:56'
+}
+{
+  message: 'Properties request route /properties/%7Bid%7D from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:06:23'
+}
+{
+  message: 'Properties request route /properties/%7Bid%7D from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:06:29'
+}
+{
+  message: 'Properties request route /properties/%7Bid%7D from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:07:05'
+}
+{
+  message: 'Properties request route /properties/%7Bid%7D from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:07:15'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:07:45'
+}
+{
+  message: 'Properties request route /properties/%7Bid%7D from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:07:48'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:07:58'
+}
+{
+  message: 'Properties request route /properties/%7Bid%7D from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:08:43'
+}
+{
+  message: 'Properties request route /properties/%7Bid%7D?id=1 from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:09:01'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:09:07'
+}
+{
+  message: 'Properties request route /properties/%7Bid%7D?id=1 from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:09:09'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:11:09'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:14:34'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:14:35'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:15:02'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:16:09'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:16:54'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:19:44'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:20:10'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:22:41'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:28:45'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:29:06'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:29:31'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:29:42'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:29:53'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:30:11'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:33:49'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:35:27'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:37:08'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:40:25'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:40:42'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:42:08'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:45:04'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:45:58'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:47:16'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:47:48'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:48:21'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:48:27'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:49:57'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:51:36'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:52:05'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:52:28'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:52:49'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:52:58'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:53:10'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:53:19'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:55:04'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:55:17'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:56:19'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:56:20'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:57:00'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:57:09'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:57:50'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:57:56'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 21:58:51'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:01:11'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:01:27'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:01:58'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:02:18'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:02:44'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:05:15'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:05:52'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:06:20'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:08:32'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:09:33'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:10:42'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:11:18'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:11:56'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:12:16'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:14:34'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:14:52'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:15:35'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:15:42'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:16:13'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:16:48'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:18:08'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:18:13'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:18:40'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:19:07'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:19:15'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:21:18'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:21:46'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:24:08'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:24:25'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:25:11'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:25:55'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:26:11'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:26:44'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:27:01'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:33:38'
+}
+{
+  message: 'API server is listening on port 8080...',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:34:14'
+}
+{
+  message: 'Hello request route /hello from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:37:36'
+}
+{
+  message: 'success',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2021-03-13 22:37:36'
+}
