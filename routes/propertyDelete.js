@@ -9,7 +9,7 @@ module.exports = (app) => {
         console.log(req.body.id)
         const property = await gateway.findAll({
             where: {
-                id: req.body.id
+                id: req.params.id
             }
         })
         if (Object.keys(property).length === 0){
@@ -17,7 +17,7 @@ module.exports = (app) => {
         } else {
             await gateway.destroy({
                 where: {
-                    id: req.body.id
+                    id: req.params.id
                 }
             })
             utilities.sendResponse(res, 200, 'Property deleted');
