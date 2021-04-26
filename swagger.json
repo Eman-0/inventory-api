@@ -3,7 +3,7 @@
 		"description":"CS 4783 Assignment"
 		,"title":"CS 4783","version":"1.0.0" 
 	}
-	,"host":"localhost:8080"
+	,"host":"localhost:12030"
 	
 	,"basePath":"/"
 	,"produces": [
@@ -13,6 +13,11 @@
 		"https"
 	]
 	,"securityDefinitions": {
+		"api_key": {
+			"type": "apiKey",
+			"in": "header",
+			"name": "api_key"
+		}
 	}
 	,"swagger":"2.0"
 	,"paths": { 
@@ -44,33 +49,39 @@
 						,"schema": {
 							"$ref": "#/definitions/Property"
 						}	
-					}	
+					}
+					,"400": {
+						"description": "Bad Request"
+					}
 				}
 			},
 
 			"post": {
 				"parameters": [
 					{
-						
+			
 						"in":"body",
+						"name":"body",
 						"schema": {"$ref": "#/definitions/Property"},
 						"required": true,
 						"description": "Property object"
-					},
-					{
-						"in": "header",
-						"name": "Authorization",
-						"required": true,
-						"type": "string"
 					}
 				],
 				"description": "Adds a new property"
 				,"tags": [
 					"Post"
-				]
-				,"responses": {
+				],
+				"security":[
+					{
+						"api_key":[]
+					}
+				],	
+				"responses": {
 					"200": {
 						"description": "Success"
+					}
+					,"400": {
+						"description": "Bad Request"
 					}
 				}
 			}
@@ -78,7 +89,8 @@
 
 		,"/properties/{id}": {
 			"parameters": [
-				{"name":"id",
+				{   
+					"name":"id",
 					"in":"path",
 					"description":"id of property to return",
 					"required":true,
@@ -110,20 +122,25 @@
 
 			"delete": {
 				"parameters": [
-					{
-						"in": "header",
-						"name": "Authorization",
-						"required": true,
-						"type": "string"
-					}
 				],
 				"description": "deletes property"
 				,"tags": [
 					"Delete by ID"
 				]
-				,"responses": {
+				,
+				"security":[
+					{
+						"api_key":[]
+					}
+				],"responses": {
 					"200": {
 						"description": "Deleted"
+					}
+					,"400": {
+						"description": "Bad Request"
+					}
+					,"404": {
+						"description": "Not Found"
 					}
 				}
 			},
@@ -132,22 +149,22 @@
 				"parameters": [
 					{
 						"in":"body",
+						"name":"body",
 						"schema": {"$ref": "#/definitions/Property"},
 						"required": true,
 						"description": "Property object"
-					},
-					{
-						"in": "header",
-						"name": "Authorization",
-						"required": true,
-						"type": "string"
 					}
 				],
 				"description": "Updates property with a valid id"
 				,"tags": [
 					"Update"
 				]
-				,"responses": {
+				,"security":[
+					{
+						"api_key":[]
+					}
+				],
+				"responses": {
 					"200": {
 						"description": "updated"
 					}
