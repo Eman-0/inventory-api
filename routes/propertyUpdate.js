@@ -7,7 +7,7 @@ module.exports = (app) => {
     app.put('/properties/:id', auth, async function (req, res) {
         const property = await gateway.findAll({
             where: {
-                id: req.body.id
+                id: req.params.id
             }
         })
         if (Object.keys(property).length === 0){
@@ -22,7 +22,7 @@ module.exports = (app) => {
             };
             await gateway.update(data, {
                 where: {
-                    id: req.body.id
+                    id: req.params.id
                 }
             })
             utilities.sendResponse(res, 200, 'Property updated');
