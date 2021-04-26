@@ -1,5 +1,5 @@
 {
-  "name": "mio755-bfn715-assignment",
+  "name": "mio755-assignment",
   "description": "js starter project for devops spring 2021",
   "version": "1.0.0",
   "main": "server.js",
@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mysql2": "^2.2.5",

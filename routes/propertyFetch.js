@@ -12,7 +12,7 @@ module.exports = (app) => {
     app.get('/properties/:id', async function (req, res) {
         const property = await gateway.findAll({
             where: {
-                id: req.body.id
+                id: req.params.id
             }
         })
         if (Object.keys(property).length === 0){
