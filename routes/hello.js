@@ -16,7 +16,7 @@ router.get('/',
   async function(request, response) {
         logger.info("success");
 
-        utilities.sendResponse(response, 200, "works as inteded");
+        utilities.sendResponse(response, 200, "Hello Mundo");
     }
 );
 
