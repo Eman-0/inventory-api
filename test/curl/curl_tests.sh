@@ -83,7 +83,7 @@ else
 fi
 
 #Good Put
-curl --silent -X PUT -H 'Content-Type: application/json' -H 'api_key: cs4783ftw!' -d '{"address":"4763 UTSA","city":"San Antonio","state":"Tx","zip":"78228","id":3}' https://10.100.201.3:12031/properties/id --insecure > actual.txt
+curl --silent -X PUT -H 'Content-Type: application/json' -H 'api_key: cs4783ftw!' -d '{"address":"4763 UTSA","city":"San Antonio","state":"Tx","zip":"78228"}' https://10.100.201.3:12031/properties/3 --insecure > actual.txt
 if grep -f ./test/curl/put_expected.txt actual.txt; then
     #pass
     echo "Pass"
