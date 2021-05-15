@@ -4,6 +4,11 @@ stages:
   - test
   - deploy
 
+test-build-job:
+  stage: build
+  script:
+    npm install
+
 kub-build-job:
   stage: build
   script:
@@ -11,18 +16,19 @@ kub-build-job:
     - docker build  -f ./Dockerfile-api -t bfn715/cs4783-spring2021-api .
     - docker login --username bfn715 --password "$MY_DOCKERHUB_TOKEN"
     - docker push bfn715/cs4783-spring2021-api
+    - rm ./.env
 
 curl-test-job:
   stage: test
   script:
-    - npm install
-    - echo "$env_test" > ./.env
-    - docker build  -f ./Dockerfile-api -t mio755/cs4783-spring2021-api .
-    - docker run -d -p 12031:12031 mio755/cs4783-spring2021-api
+    - echo "$PRIVATE_KEY" > ./my_private_key
+    - chmod 400 ./my_private_key
+    - ssh -i ./my_private_key mio755@10.100.201.3 "cd ~/cs4783-assignment1; echo "$env_test" > ./.env; pm2 start server.js"
     - echo "Running CURL tests..."
     - chmod +x ./test/curl/*.sh
     - ./test/curl/curl_tests.sh
-    - docker kill mio755/cs4783-spring2021-api
+    - ssh -i ./my_private_key mio755@10.100.201.3 "cd ~/cs4783-assignment1; rm .env; pm2 kill"
+    - rm ./my_private_key
 
 deliver-job:
   stage: deploy
