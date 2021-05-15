@@ -5,14 +5,18 @@ volumes:
 
 services:
  mio755-db:
-    image: bfn715/cs4783-spring2021-db
-    volumes:
+   build:
+     context: .
+     dockerfile: Dockerfile-db
+   volumes:
         - mio755-dbvol:/var/lib/mysql
     ports:
         - "3306:3306"
  mio755-api:
-    image: bfn715/cs4783-spring2021-api
-    depends_on: 
+   build:
+     context: .
+     dockerfile: Dockerfile-api
+   depends_on:
         - mio755-db
     ports:
         - "12030:12030"
