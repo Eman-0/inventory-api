@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: C:\Users\jaked\Desktop\cs4783-assignment1\kompose.exe convert
+    kompose.version: 1.21.0 (992df58d8)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: mio755-api
+  name: mio755-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: mio755-api
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: C:\Users\jaked\Desktop\cs4783-assignment1\kompose.exe convert
+        kompose.version: 1.21.0 (992df58d8)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: mio755-api
+    spec:
+      containers:
+      - image: bfn715/cs4783-spring2021-api
+        imagePullPolicy: ""
+        name: mio755-api
+        ports:
+        - containerPort: 12030
+        resources: {}
+      restartPolicy: Always
+      imagePullSecrets:
+        - name: bfn715-dockerhub
+status: {}
