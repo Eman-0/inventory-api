@@ -9,14 +9,14 @@ test-build-job:
   script:
     - npm install
     - echo "$env_test" > ./.env
-    - docker build  -f ./Dockerfile-api -t mio755/cs4783-spring2021-api
+    - docker build  -f ./Dockerfile-api -t mio755/cs4783-spring2021-api .
     - docker run -d -p 12030:12030 mio755/cs4783-spring2021-api
 
 kub-build-job:
   stage: build
   script:
     - echo "$env" > ./.env
-    - docker build  -f ./Dockerfile-api -t bfn715/cs4783-spring2021-api
+    - docker build  -f ./Dockerfile-api -t bfn715/cs4783-spring2021-api .
     - docker login --username bfn715 --password "$MY_DOCKERHUB_TOKEN"
     - docker push bfn715/cs4783-spring2021-api
 
