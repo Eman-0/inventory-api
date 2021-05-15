@@ -1,0 +1,39 @@
+---
+stages:
+  - build
+  - test
+  - deploy
+
+test-build-job:
+  stage: build
+  script:
+    - npm install
+    - echo "$env_test" > ./.env
+    - docker build -tag mio755/cs4783-spring2021-api ./Dockerfile-api
+    - docker run -d -p 12030:12030 mio755/cs4783-spring2021-api
+
+kub-build-job:
+  stage: build
+  script:
+    - echo "$env" > ./.env
+    - docker build -tag bfn715/cs4783-spring2021-api Dockerfile-api
+    - docker login --username bfn715 --password "$MY_DOCKERHUB_TOKEN"
+    - docker push bfn715/cs4783-spring2021-api
+
+curl-test-job:
+  stage: test
+  script:
+    - echo "Running CURL tests..."
+    - chmod +x ./test/curl/*.sh
+    - ./test/curl/curl_tests.sh
+    - docker kill mio755/cs4783-spring2021-api
+
+deliver-job:
+  stage: deploy
+  script:
+    - echo "$MY_KBS_CONFIG" > ./.config
+    - export KUBECONFIG=$KUBECONFIG:./config
+    - kubectl apply -f .\mio755-api-deployment.yaml
+    - kubectl apply -f .\mio755-api-service.yaml
+    - kubectl rollout restart mio755-api --kubeconfig ./.config
+...
