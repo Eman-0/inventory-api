@@ -4,14 +4,6 @@ stages:
   - test
   - deploy
 
-test-build-job:
-  stage: build
-  script:
-    - npm install
-    - echo "$env_test" > ./.env
-    - docker build  -f ./Dockerfile-api -t mio755/cs4783-spring2021-api .
-    - docker run -d -p 12030:12030 mio755/cs4783-spring2021-api
-
 kub-build-job:
   stage: build
   script:
@@ -23,6 +15,10 @@ kub-build-job:
 curl-test-job:
   stage: test
   script:
+    - npm install
+    - echo "$env_test" > ./.env
+    - docker build  -f ./Dockerfile-api -t mio755/cs4783-spring2021-api .
+    - docker run -d -p 12030:12030 mio755/cs4783-spring2021-api
     - echo "Running CURL tests..."
     - chmod +x ./test/curl/*.sh
     - ./test/curl/curl_tests.sh
