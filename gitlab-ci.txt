@@ -2,13 +2,11 @@
 build-job:
   stage: build
   script:
-    - npm install --save-dev chai
     - npm install
-
-unit-test-job:
-  stage: test
-  script:
-    - npm test
+    - docker build -tag bfn715/cs4783-spring2021-api Dockerfile-api
+    - docker login --username bfn715 --password <GITLAB VAR DOCKERHUB TOKEN>
+    - docker push bfn715/cs4783-spring2021-api
+    - export KUBECONFIG=$KUBECONFIG:<GITLAB VAR CONFIG>
 
 curl-test-job:
   stage: test
@@ -20,9 +18,7 @@ curl-test-job:
 deliver-job:
   stage: deploy
   script:
-    - echo "Deploying to class server..."
-    - echo "$PRIVATE_KEY" > ./my_private_key
-    - chmod 400 ./my_private_key
-    - ssh -i ./my_private_key mio755@10.100.201.3 "cd ~/cs4783-assignment1; git pull; pm2 reload all"
-    - rm ./my_private_key
+    - kubectl apply -f .\mio755-api-deployment.yaml
+    - kubectl apply -f .\mio755-api-service.yaml
+    - kubectl rollout restart <your deployment name> --kubeconfig ./<your deployment script>
 ...
