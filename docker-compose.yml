@@ -1,24 +1,22 @@
 version: "3.0"
 
 volumes:
-    mio755-dbvol: {}
+  mio755-dbvol: {}
 
 services:
- mio755-db:
-   build:
-     context: .
-     dockerfile: Dockerfile-db
-   volumes:
-        - mio755-dbvol:/var/lib/mysql
+  mio755-db:
+    build:
+      context: .
+      dockerfile: Dockerfile-db
+    volumes:
+      - mio755-dbvol:/var/lib/mysql
     ports:
-        - "3306:3306"
- mio755-api:
-   build:
-     context: .
-     dockerfile: Dockerfile-api
-   depends_on:
-        - mio755-db
+      - "3306:3306"
+  mio755-api:
+    build:
+      context: .
+      dockerfile: Dockerfile-api
+    depends_on:
+      - mio755-db
     ports:
-        - "12030:12030"
-
-    
+      - "12030:12030"
