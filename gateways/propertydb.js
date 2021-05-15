@@ -6,7 +6,7 @@ const utilities = require("../misc/utilities");
 const logger = utilities.getLogger();
 
 const sequelize = new Sequelize("cs4783_mio755", "root", "utsa", {
-	host: "10.152.183.222:3306",
+	host: "10.152.183.222",
 	dialect: "mysql"
 })
 
