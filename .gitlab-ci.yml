@@ -35,7 +35,7 @@ deliver-job:
   script:
     - echo "$MY_KBS_CONFIG" > ./config
     - export KUBECONFIG=$KUBECONFIG:./config
-    - kubectl apply -f .\mio755-api-deployment.yaml
-    - kubectl apply -f .\mio755-api-service.yaml
+    - kubectl apply -f ./mio755-api-deployment.yaml
+    - kubectl apply -f ./mio755-api-service.yaml
     - kubectl rollout restart mio755-api --kubeconfig ./config
 ...
