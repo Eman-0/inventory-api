@@ -9,7 +9,7 @@
     "dev": "nodemon ./server.js"
   },
   "keywords": [],
-  "author": "docrob",
+  "author": "Emmanuel",
   "license": "ISC",
   "dependencies": {
     "chai-http": "^4.3.0",

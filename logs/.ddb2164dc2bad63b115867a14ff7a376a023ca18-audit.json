@@ -6,14 +6,10 @@
     "auditLog": "logs/.ddb2164dc2bad63b115867a14ff7a376a023ca18-audit.json",
     "files": [
         {
-            "date": 1615772628476,
-            "name": "logs/devops-2021-03-14.log",
-            "hash": "97a567ddb39748e7a9165318f7d15f01"
-        },
-        {
-            "date": 1617849410285,
-            "name": "logs/devops-2021-04-07.log",
-            "hash": "814ae892d872f6ba181ee797abdd0457"
+            "date": 1645937077245,
+            "name": "logs/devops-2022-02-26.log",
+            "hash": "a3b042a6a57abf3abce846f79391a99a"
         }
-    ]
+    ],
+    "hashType": "md5"
 }
