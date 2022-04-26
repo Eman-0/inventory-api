@@ -1,0 +1,108 @@
+{
+  message: 'swagger.json request route /swagger.json from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 13:55:45'
+}
+{
+  message: 'success',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 13:55:45'
+}
+{
+  message: 'Hello request route /hello from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 13:55:59'
+}
+{
+  message: 'success',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 13:55:59'
+}
+{
+  message: 'Hello request route /hello from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 13:56:38'
+}
+{
+  message: 'success',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 13:56:38'
+}
+{
+  message: 'Hello request route /hello from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 13:56:43'
+}
+{
+  message: 'success',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 13:56:43'
+}
+{
+  message: 'swagger.json request route /swagger.json from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 13:56:45'
+}
+{
+  message: 'success',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 13:56:45'
+}
+{
+  message: 'swagger.json request route /swagger.json from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 13:56:46'
+}
+{
+  message: 'success',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 13:56:46'
+}
+{
+  message: 'swagger.json request route /swagger.json from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 13:57:28'
+}
+{
+  message: 'success',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 13:57:28'
+}
+{
+  message: 'swagger.json request route /swagger.json from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 14:01:24'
+}
+{
+  message: 'success',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 14:01:24'
+}
+{
+  message: 'Hello request route /hello from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 14:02:25'
+}
+{
+  message: 'success',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 14:02:25'
+}
