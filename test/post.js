@@ -18,7 +18,7 @@ describe('post.js', () => {
             chai.request(server)
                 .post('/properties')
                 .set('Content-Type', 'application/json')
-                .set('Authorization', "cs4783ftw!")
+                .set('api_key', "cs4783ftw!")
                 .send(property)
                 .end((err, res) => {
                     res.should.have.status(200);
@@ -39,7 +39,7 @@ describe('post.js', () => {
                 .post('/properties')
                 .set('Content-Type', 'application/json')
                 .send(property)
-                .set('Authorization', "cs4783ftw!")
+                .set('api_key', "cs4783ftw!")
                 .end((err, res) => {
                     res.should.have.status(400);
                     res.body.should.be.a('object');
@@ -59,7 +59,7 @@ describe('post.js', () => {
             chai.request(server)
                 .post('/properties')
                 .set('Content-Type', 'application/json')
-                .set('Authorization', "cs4783")
+                .set('api_key', "cs4783")
                 .send(property)
                 .end((err, res) => {
                     res.should.have.status(401);

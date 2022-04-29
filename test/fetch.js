@@ -21,13 +21,13 @@ describe('fetch.js', () => {
     describe('Fetch Property', () => {
         it('it should fetch the info of a specified property given an id and return status code 200', (done) => {
             chai.request(server)
-                .get('/properties/id')
+                .get('/properties/:id')
                 .set('Content-Type', 'application/json')
-                .send("{\"id\": 3}")
+                .send({"id": 1})
                 .end((err, res) => {
                     res.should.have.status(200);
                     res.body.should.be.a('object');
-                    res.body.should.have.property('message').eql('[{\"id\":3,\"address\":\"1225 Boardwalk\",\"city\":\"San Angles\",\"state\":\"CA\",\"zip\":\"9877\"}]');
+                    res.body.should.have.property('message').eql('[{\"id\":1,\"address\":\"5203 witt\",\"city\":\"san antonio\",\"state\":\"Tx\",\"zip\":\"78228\"}]');
                     done();
                 });
         });
@@ -35,9 +35,9 @@ describe('fetch.js', () => {
     describe('Fetch Non-Existing Property', () => {
         it('it should attempt to get the info of a specified property given an id that does not exist, return an error message and status code 404', (done) => {
             chai.request(server)
-                .get('/properties/id')
+                .get('/properties/:id')
                 .set('Content-Type', 'application/json')
-                .send("{\"id\": 1}")
+                .send({"id": 0})
                 .end((err, res) => {
                     res.should.have.status(404);
                     res.body.should.have.property('message').eql('Property not found')

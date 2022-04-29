@@ -4,6 +4,8 @@
 
 # testing
 /coverage
+/logs
+/.idea
 
 # production
 /build

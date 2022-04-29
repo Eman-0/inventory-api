@@ -142,3 +142,27 @@
   service: 'devops-2021',
   timestamp: '2022-04-26 17:04:41'
 }
+{
+  message: 'swagger.json request route /swagger.json from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 21:19:43'
+}
+{
+  message: 'success',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 21:19:43'
+}
+{
+  message: 'Hello request route /hello from ::1',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 21:20:01'
+}
+{
+  message: 'success',
+  level: 'info',
+  service: 'devops-2021',
+  timestamp: '2022-04-26 21:20:01'
+}
