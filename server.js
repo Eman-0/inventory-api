@@ -33,7 +33,9 @@ require('./routes/propertyFetch')(app);
 // setup the logger
 const utilities = require("./misc/utilities");
 const logger = utilities.getLogger();
-const fs = require('fs')
+const fs = require('fs');
+
+
 
 https.createServer({
     key: fs.readFileSync('./ssl-dir/key.pem'),

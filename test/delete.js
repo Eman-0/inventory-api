@@ -11,9 +11,9 @@ describe('delete.js', () => {
         it('it should attempt to delete a specified property given an id that does not exist and fail to do so and should state that in a message with a status code of 404', (done) => {
             chai.request(server)
                 .delete('/properties/:id')
-                .set('Authorization', "cs4783ftw!")
+                .set('api_key', "cs4783ftw!")
                 .set('Content-Type', 'application/json')
-                .send("{\"id\":1}")
+                .send('{\"id\":0}')
                 .end((err, res) => {
                     res.should.have.status(404);
                     res.body.should.be.a('object');
