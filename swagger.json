@@ -3,7 +3,7 @@
 		"description":"CS 4783 Assignment"
 		,"title":"CS 4783","version":"1.0.0" 
 	},
-	"host": "localhost"
+	"host": "localhost:3000"
 	
 	,"basePath":"/"
 	,"produces": [

@@ -11,7 +11,7 @@ describe('update.js', () => {
         it('it should update a specified address property given an id and inform its completion with a success message with status code 200', (done) => {
             chai.request(server)
                 .put('/properties/:id')
-                .set('Authorization', "cs4783ftw!")
+                .set('api_key', "cs4783ftw!")
                 .set('Content-Type', 'application/json')
                 .send({"id": 7, "address": "1225 Boardwalk", "city":"San Angles", "state":"CA", "zip":"9877"})
                 .end((err, res) => {
@@ -26,7 +26,7 @@ describe('update.js', () => {
         it('it should attempt update a specified address property but fail because the id does not exist, so it sends an error message and status code 404', (done) => {
             chai.request(server)
                 .put('/properties/:id')
-                .set('Authorization', "cs4783ftw!")
+                .set('api_key', "cs4783ftw!")
                 .set('Content-Type', 'application/json')
                 .send({"id": 1, "address": "1555 Boardwalk", "city":"San Angles", "state":"CA", "zip":"9877"})
                 .end((err, res) => {
@@ -41,7 +41,7 @@ describe('update.js', () => {
         it('it should attempt update a specified property by id but fail because it was not authenticated and return a message stating so with a status code of 401', (done) => {
             chai.request(server)
                 .put('/properties/:id')
-                .set('Authorization', "cs4783")
+                .set('api_key', "cs4783")
                 .set('Content-Type', 'application/json')
                 .send({"id": 3, "address": "1555 Boardwalk", "city":"San Angles", "state":"CA", "zip":"9877"})
                 .end((err, res) => {
