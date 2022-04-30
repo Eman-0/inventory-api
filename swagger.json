@@ -1,7 +1,7 @@
 {
 	"info": {
 		"description":"Property API UI"
-		,"title":"CS 4783","version":"1.0.0" 
+		,"title":"Property API","version":"1.0.0" 
 	},
 	"host": "52.14.98.152:3000"
 	
