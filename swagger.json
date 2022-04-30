@@ -1,9 +1,9 @@
 {
 	"info": {
-		"description":"CS 4783 Assignment"
+		"description":"Property API UI"
 		,"title":"CS 4783","version":"1.0.0" 
 	},
-	"host": "localhost:3000"
+	"host": "52.14.98.152:3000"
 	
 	,"basePath":"/"
 	,"produces": [
